@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Kontakt &amp; Termin – Silhouette Wilhelmshaven</title>
+<meta name="description" content="Termin vereinbaren bei Silhouette, Marktstraße 85 in Wilhelmshaven. Mo–Fr 10–18 Uhr, Sa 10–16 Uhr. Telefon 04421 9668202." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="topline"><div class="wrap">
+  <span data-status>Mo–Fr 10–18 · Sa 10–16 Uhr</span>
+  <a href="tel:044219668202">04421 9668202 · Marktstraße 85, Wilhelmshaven</a>
+</div></div>
+
+<header class="site-head"><div class="wrap">
+  <a class="brand" href="index.html"><b>SILHOUETTE</b><span>Braut- &amp; Abendmoden</span></a>
+  <nav class="nav" aria-label="Hauptmenü">
+    <a href="index.html">Start</a>
+    <a href="brautmode.html">Brautmode</a>
+    <a href="abendmode.html">Abendmode</a>
+    <a href="ablauf.html">Ablauf</a>
+    <a href="ueber-uns.html">Über uns</a>
+    <a href="kontakt.html" aria-current="page">Kontakt</a>
+    <a class="btn btn--sm btn--gold" href="kontakt.html">Termin</a>
+  </nav>
+  <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false"><span></span><span></span><span></span></button>
+</div></header>
+
+<main>
+  <section class="pagehero">
+    <div class="wrap measure">
+      <span class="eyebrow">Kontakt &amp; Termin</span>
+      <h1>Meld dich einfach kurz.</h1>
+      <p class="lead">Am besten meldest du dich, und wir finden einen Termin, an dem du Zeit und Ruhe hast. Ruf an oder komm während der Öffnungszeiten an der Marktstraße 85 vorbei.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap contact-grid">
+      <!-- Infos -->
+      <div class="reveal">
+        <ul class="info-list">
+          <li><span class="k">Telefon</span><span class="v"><a href="tel:044219668202">04421 9668202</a></span></li>
+          <li><span class="k">Adresse</span><span class="v">Marktstraße 85<br>26382 Wilhelmshaven</span></li>
+          <li><span class="k">Öffnungszeiten</span><span class="v" style="font-size:1.05rem;line-height:1.9">Mo – Fr &nbsp;10 – 18 Uhr<br>Samstag &nbsp;10 – 16 Uhr<br>Sonntag &nbsp;geschlossen</span></li>
+          <li><span class="k">Status</span><span class="v" style="font-size:1.05rem" data-status>—</span></li>
+        </ul>
+        <a class="btn btn--ghost btn--sm" style="margin-top:1.6rem" href="https://www.google.com/maps/search/?api=1&amp;query=Silhouette+Braut+Abendmoden+Marktstra%C3%9Fe+85+Wilhelmshaven" target="_blank" rel="noopener">Route in Google Maps</a>
+      </div>
+
+      <!-- Formular -->
+      <div class="reveal d1">
+        <h2 class="h-as-h3" style="margin-bottom:0.4rem">Terminanfrage</h2>
+        <p class="form-note" style="margin-bottom:1.4rem">Kein Pflichtprogramm – ein Anruf tut es auch. Aber wenn du magst, schreib uns kurz, worum es geht.</p>
+        <form class="appt" novalidate>
+          <div class="field">
+            <label for="f-name">Name</label>
+            <input id="f-name" name="name" type="text" required autocomplete="name" />
+          </div>
+          <div class="field--row">
+            <div class="field">
+              <label for="f-tel">Telefon</label>
+              <input id="f-tel" name="tel" type="tel" required autocomplete="tel" />
+            </div>
+            <div class="field">
+              <label for="f-anlass">Anlass</label>
+              <select id="f-anlass" name="anlass">
+                <option>Brautmode</option>
+                <option>Abendmode</option>
+                <option>Anzug / Bräutigam</option>
+                <option>Noch unklar</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="f-wunsch">Wunschzeit</label>
+            <input id="f-wunsch" name="wunsch" type="text" placeholder="z. B. Samstagvormittag, oder ein Datum" />
+          </div>
+          <div class="field">
+            <label for="f-nachricht">Nachricht (optional)</label>
+            <textarea id="f-nachricht" name="nachricht" rows="4" placeholder="Wann ist der große Tag? Was schwebt dir vor?"></textarea>
+          </div>
+          <button type="submit" class="btn btn--gold">Anfrage absenden</button>
+          <p class="form-note">Wir melden uns telefonisch zurück. Deine Angaben nutzen wir nur, um deinen Termin abzustimmen.</p>
+        </form>
+        <div class="form-ok" role="status" aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KARTE -->
+  <section class="section--tight">
+    <div class="wrap">
+      <iframe class="map-embed" title="Karte: Marktstraße 85, Wilhelmshaven" loading="lazy"
+        src="https://www.google.com/maps?q=Marktstra%C3%9Fe%2085%2C%2026382%20Wilhelmshaven&amp;output=embed"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot"><div class="wrap">
+  <div class="cols">
+    <div>
+      <a class="brand" href="index.html"><b>SILHOUETTE</b><span>Braut- &amp; Abendmoden</span></a>
+      <p style="margin-top:1rem;max-width:34ch;color:#97907f">Kleine Boutique an der Marktstraße. Braut- und Abendmode mit Zeit, Ruhe und einem Termin, der dir gehört.</p>
+    </div>
+    <div>
+      <h3 class="h-as-h4">Besuch</h3>
+      <ul><li>Marktstraße 85</li><li>26382 Wilhelmshaven</li><li><a href="tel:044219668202">04421 9668202</a></li></ul>
+    </div>
+    <div>
+      <h3 class="h-as-h4">Öffnungszeiten</h3>
+      <ul><li>Mo – Fr · 10 – 18 Uhr</li><li>Samstag · 10 – 16 Uhr</li><li>Sonntag · geschlossen</li></ul>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <span>© <span data-year>2026</span> Silhouette Braut- &amp; Abendmoden · Wilhelmshaven</span>
+    <span><a href="https://www.google.com/maps/search/?api=1&amp;query=Silhouette+Braut+Abendmoden+Marktstra%C3%9Fe+85+Wilhelmshaven" target="_blank" rel="noopener">Route &amp; Karte</a> · <a href="kontakt.html">Kontakt</a></span>
+  </div>
+</div></footer>
+
+<div class="sticky-cta"><a class="btn" href="tel:044219668202">Jetzt anrufen</a></div>
+<script src="js/main.js"></script>
+<div id="ttb-vorschau" style="position:fixed;left:12px;right:12px;bottom:12px;z-index:2147483647;display:flex;gap:12px;align-items:center;justify-content:space-between;max-width:640px;margin:0 auto;padding:10px 14px;border-radius:14px;background:#141517;color:#F2F2EF;font:500 14px/1.35 system-ui,-apple-system,'Segoe UI',sans-serif;box-shadow:0 6px 24px rgba(0,0,0,.25)">
+<span>Entwurf von <strong>TTbuilds</strong> für Silhouette Braut- & Abendmoden · Vorschau, noch nicht veröffentlicht</span>
+<button type="button" onclick="this.parentNode.remove()" aria-label="Hinweis schließen" style="all:unset;cursor:pointer;padding:4px 8px;font-size:18px;line-height:1">×</button></div>
+</body>
+</html>
